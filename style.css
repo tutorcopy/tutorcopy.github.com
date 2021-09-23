@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("coba.JPG");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+	border: 1px solid white;
+	padding: 5px 1px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+font{
+	margin: auto;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 60px;
+	text-decoration: underline;
+}
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+.box-login{
+	top: 30%;
+	left: 37%;
+	position: absolute ;
+	border: 1px solid white;
+	text-decoration: none;
+	background-color: 1px solid transparent;
+	margin: auto;
+	padding: 5%;
+
+}
+.box-login form input[type=text],
+.box-login form input[type=password]{
+	text-align: left;
+	margin: 5% 0;
+	padding-left: 50%;
+}
